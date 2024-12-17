@@ -2,9 +2,8 @@
 
 namespace Mars\Framework\Interfaces;
 
-interface ProviderInterface
-{
-    public function register();
+use League\Container\ServiceProvider\BootableServiceProviderInterface;
 
-    public function boot();
+interface ProviderInterface extends BootableServiceProviderInterface
+{
 }
