@@ -1,20 +1,37 @@
 {
   "name": "marsphp/framework",
-  "description": "description",
+  "description": "The Mars Framework.",
+  "keywords": ["framework", "mars", "marsphp"],
   "minimum-stability": "stable",
-  "license": "proprietary",
+  "license": "MIT",
   "authors": [
     {
-      "name": "hassanedao",
-      "email": "email@example.com"
+      "name": "Hassane Dao",
+      "email": "hassane.dao@marsphp.com"
+    },
+    {
+      "name": "Houssene Dao",
+      "email": "houssene.dao@marsphp.com"
     }
   ],
   "autoload": {
+    "files": [
+      "./src/Support/helpers.php"
+    ],
     "psr-4": {
       "Mars\\Framework\\": "src/"
     }
   },
   "require": {
+    "php": "^8.2",
     "league/container": "^4.2"
-  }
+  },
+  "config": {
+    "sort-packages": true,
+    "allow-plugins": {
+      "composer/package-versions-deprecated": true,
+      "php-http/discovery": false
+    }
+  },
+  "prefer-stable": true
 }
