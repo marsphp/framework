@@ -5,9 +5,10 @@ namespace Mars\Facades\Abstracts;
 abstract class Facade
 {
     protected static $resolved;
+
     protected static $container;
 
-    public static function setContainer($container)
+    public static function setContainer($container): void
     {
         static::$container = $container;
     }
