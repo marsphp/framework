@@ -1,5 +1,5 @@
 {
-  "name": "marsphp/framework",
+  "name": "mars/mars",
   "description": "The Mars Framework.",
   "keywords": ["framework", "mars", "marsphp"],
   "minimum-stability": "stable",
@@ -16,10 +16,10 @@
   ],
   "autoload": {
     "files": [
-      "./src/Support/helpers.php"
+      "src/Mars/Support/helpers.php"
     ],
     "psr-4": {
-      "Mars\\Framework\\": "src/"
+      "Mars": "src/Mars"
     }
   },
   "require": {
