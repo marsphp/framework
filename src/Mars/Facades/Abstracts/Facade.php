@@ -2,11 +2,11 @@
 
 namespace Mars\Facades\Abstracts;
 
-/**
- * @property $container
- */
 abstract class Facade
 {
+    protected static $resolved;
+    protected static $container;
+
     public static function setContainer($container)
     {
         static::$container = $container;
@@ -16,7 +16,11 @@ abstract class Facade
     {
         $accessor = static::getFacadeAccessor();
 
-        return static::$container[$accessor];
+        if ($resolved = static::$resolved[$accessor]) {
+            return $resolved;
+        }
+
+        return static::$resolved[$accessor] = static::$container[$accessor];
     }
 
     public static function __callStatic($method, $args)
