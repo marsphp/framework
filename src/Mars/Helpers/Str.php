@@ -1,6 +1,6 @@
 <?php
 
-namespace Mars\Framework\Helpers;
+namespace Mars\Helpers;
 
 class Str
 {

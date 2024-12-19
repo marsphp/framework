@@ -1,6 +1,6 @@
 <?php
 
-namespace Mars\Framework\Facades\Abstracts;
+namespace Mars\Facades\Abstracts;
 
 /**
  * @property $container

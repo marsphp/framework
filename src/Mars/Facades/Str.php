@@ -1,8 +1,8 @@
 <?php
 
-namespace Mars\Framework\Facades;
+namespace Mars\Facades;
 
-use Mars\Framework\Facades\Abstracts\Facade;
+use Mars\Facades\Abstracts\Facade;
 
 class Str extends Facade {
     public function getFacadeAccessor(): string
