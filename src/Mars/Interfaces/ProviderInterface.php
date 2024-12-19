@@ -1,6 +1,6 @@
 <?php
 
-namespace Mars\Framework\Martian\Interfaces;
+namespace Mars\Interfaces;
 
 use League\Container\ServiceProvider\BootableServiceProviderInterface;
 
