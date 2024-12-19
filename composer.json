@@ -1,5 +1,5 @@
 {
-  "name": "mars/mars",
+  "name": "mars/framework",
   "description": "The Mars Framework.",
   "keywords": ["framework", "mars", "marsphp"],
   "minimum-stability": "stable",
