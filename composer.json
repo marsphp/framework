@@ -36,5 +36,5 @@
       "php-http/discovery": false
     }
   },
-  "prefer-stable": true,
+  "prefer-stable": true
 }
