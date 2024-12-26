@@ -3,13 +3,7 @@
 namespace Mars\Providers;
 
 use League\Container\ServiceProvider\AbstractServiceProvider;
+use League\Container\ServiceProvider\BootableServiceProviderInterface;
 
-abstract class MarsProvider extends AbstractServiceProvider
-{
-    public function provides(string $id): bool
-    {
-        $services = [];
-
-        return in_array($id, $services);
-    }
-}
+abstract class MarsProvider extends AbstractServiceProvider implements BootableServiceProviderInterface
+{}
