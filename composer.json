@@ -16,7 +16,7 @@
   ],
   "autoload": {
     "files": [
-      "src/Mars/Support/helpers.php"
+      "src/Mars/Facades/Support/helpers.php"
     ],
     "psr-4": {
       "Mars\\": "src/Mars"
