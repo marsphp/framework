@@ -2,9 +2,7 @@
 
 namespace Mars\Providers;
 
-use FastRoute\RouteCollector;
 use League\Route\Router;
-use League\Route\Strategy\ApplicationStrategy;
 
 class AppServiceProvider extends MarsProvider
 {

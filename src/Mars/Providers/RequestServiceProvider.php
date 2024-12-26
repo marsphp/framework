@@ -2,7 +2,6 @@
 
 namespace Mars\Providers;
 
-use Laminas\Diactoros\Request;
 use Laminas\Diactoros\ServerRequestFactory;
 
 class RequestServiceProvider extends MarsProvider
