@@ -2,7 +2,7 @@
 
 namespace Mars\Helpers;
 
-use Mars\Facades\Abstracts\Facade;
+use facades\src\Abstracts\Facade;
 
 class Num extends Facade
 {
